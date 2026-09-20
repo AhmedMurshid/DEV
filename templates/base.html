@@ -15,9 +15,9 @@
 <header class="site-header">
   <a class="brand" href="{% url 'home' %}" aria-label="Ahmed Abdullahi home"><span class="brand-mark">a<span>.</span></span><span>Ahmed Abdullahi<span class="brand-caption">DATABASE & CLOUD ENGINEER</span></span></a>
   <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
-  <nav id="navigation" aria-label="Main navigation"><a href="{% url 'home' %}#about">About</a><a href="{% url 'home' %}#expertise">Expertise</a><a href="{% url 'home' %}#projects">Projects</a><a href="{% url 'home' %}#experience">Experience</a><a class="nav-contact" href="{% url 'home' %}#contact">Let’s connect <span aria-hidden="true">↗</span></a></nav>
+  <nav id="navigation" aria-label="Main navigation"><a href="{% url 'home' %}#about">About</a><a href="{% url 'home' %}#expertise">Skills</a><a href="{% url 'home' %}#projects">Projects</a><a href="{% url 'home' %}#experience">Experience</a><a class="nav-contact" href="{% url 'home' %}#contact">Contact</a></nav>
 </header>
 <main id="main">{% block content %}{% endblock %}</main>
-<footer class="footer"><a class="footer-name" href="{% url 'home' %}">Ahmed Abdullahi<span>Database & Cloud Engineer</span></a><span>Built with Django. Designed for clarity.</span><a href="#main">Back to top ↑</a></footer>
+<footer class="footer"><a class="footer-name" href="{% url 'home' %}">Ahmed Abdullahi<span>Database & Cloud Engineer</span></a><span>Built with Django.</span><a href="#main">Back to top ↑</a></footer>
 </body>
 </html>
